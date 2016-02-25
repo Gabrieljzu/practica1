@@ -13,7 +13,8 @@ public class Menu_principal {
     }
     public void abrir_submenu(int x){
         switch(x){
-            case 1: 
+            case 1: gestion_deportistas p= new gestion_deportistas();
+                p.abrir_gestion();
             break;
             case 2:
             break;
